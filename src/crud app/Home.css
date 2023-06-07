@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Noto+Serif:wght@300&display=swap');
+form{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+ 
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+input{
+    border: solid;
+   background-color: rgb(130, 236, 201);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+
+
+}
+::placeholder {
+    color: black;
+    text-align: center;
+}
+textarea{
+background-color: rgb(130, 236, 201);
+    border-radius: 10px;
+    border: solid;
+
+}
+textarea::placeholder{
+    color: black;
+    font-size: medium;
+}
+h1{
+    
+    font-style: normal;
+    color: rgb(5, 28, 28);
+    font-family: 'Noto Serif', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+ul{
+    font-style:italic;
+    display:  flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+.ul{
+
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+li{
+    width: 400px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.btnUp{
+    font-size: medium;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+    margin-bottom: 10px;
+    margin-top: 9px;
+    background-color: skyblue;
+}
+.btnUp:hover{
+background-color: rgb(93, 182, 217);
+
+}
+.btnQuote{
+    font-size: medium;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 2px;
+        margin-top: 9px;
+        background-color: skyblue;
+}
+.btnQuote:hover {
+    background-color: rgb(93, 182, 217);
+}
+.btnDel{
+    font-size: medium;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 2px;
+    margin-top:9px ;
+    background-color: rgb(228, 38, 38);
+}
+.btnDel:hover {
+    background-color: rgb(219, 24, 24);
+}
+li{
+   
+    border:  solid 1px;
+    background-color: rgb(120, 120, 110);
+}
